@@ -35,7 +35,7 @@ pipeline{
          }
         stage('port expose'){
             steps{
-                sh 'docker run -dt -p 8091:8091 --name c01 finance-app'
+                sh 'docker run -dt -p 8091:8091 --name c1 finance-app'
             }
         }   
     }
